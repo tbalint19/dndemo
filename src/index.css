@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 500px;
+}
+
+#basket {
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px gray inset;
+  flex: 1 0 100px;
+  margin: 1rem;
+  max-width: 1000px;
+}
+
+article {
+  flex: 1 0 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px gray;
+  padding: 1rem;
+  cursor: grab;
+}
+
+article h2 {
+  min-height: 4rem;
+}
+
+article img {
+  width: 100%;
+}
